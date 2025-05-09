@@ -1,5 +1,6 @@
 import React from "react";
-import { TbAirBalloon } from "react-icons/tb";
+
+import { ImAirplane } from "react-icons/im";
 
 const Nav = () => {
   return (
@@ -7,10 +8,10 @@ const Nav = () => {
       <div className="flex items-center h-full justify-between w-[90%]  xl:w-[80%] mx-auto">
         {/* logo */}
         <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center flex-col">
-            <TbAirBalloon className="w-6 h-6 text-white" />
+          <div className="w-10 h-10 bg-rose-500 rounded-full flex items-center justify-center flex-col">
+            <ImAirplane className="w-5 h-5 text-white" />
           </div>
-          <h1 className="text-xl md:text-2xl text-white uppercase font-bold">
+          <h1 className="text-base md:text-lg text-white uppercase font-bold">
             TripBuddy
           </h1>
         </div>
