@@ -1,6 +1,7 @@
 import { navLinks } from "@/constant/constant";
 import Link from "next/link";
 import React from "react";
+import { HiBars3BottomRight } from "react-icons/hi2";
 
 import { ImAirplane } from "react-icons/im";
 
@@ -29,6 +30,14 @@ const Nav = () => {
               </Link>
             );
           })}
+        </div>
+        {/* buttons */}
+        <div className="flex items-center space-x-4">
+          <button className="md:px-8 md:py-2 px-6 py-2 text-black text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg  ">
+            Book Now
+          </button>
+          {/* burger menu */}
+          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-white lg:hidden" />
         </div>
       </div>
     </div>
